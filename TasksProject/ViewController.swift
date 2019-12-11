@@ -30,7 +30,8 @@ class ViewController: UIViewController {
     }
     override func viewWillLayoutSubviews() {
         // Adding NavigationBar
-        navigationBar = UINavigationBar(frame: CGRect(x: 0, y: 40, width: self.view.frame.width, height: 44))
+        let yPos = CGFloat(view.frame.height <= 736 ? 20 : view.frame.height >= 1024 ? 20 : 40)
+        navigationBar = UINavigationBar(frame: CGRect(x: 0, y: yPos, width: self.view.frame.width, height: 44))
         self.view.addSubview(navigationBar);
         let navigationItem = UINavigationItem(title: self.resTitle ?? "")
         self.navigationBar.setItems([navigationItem], animated: false)
