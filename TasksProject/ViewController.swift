@@ -7,9 +7,6 @@
 //
 
 import UIKit
-//struct Response: Codable { // or Decodable
-//  let title: String
-//}
 
 class ViewController: UIViewController {
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
@@ -64,6 +61,7 @@ class ViewController: UIViewController {
         
         self.parseJsonData()
     }
+    //  Refresh Data Method
     @objc private func refreshData(_ sender: Any) {
         // Fetch Data
         self.parseJsonData()
