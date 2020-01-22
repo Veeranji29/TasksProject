@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TasksProject
 //
-//  Created by Veera Diande on 11/12/19.
-//  Copyright © 2019 Brandenburg. All rights reserved.
+//  Created by Veera Diande on 21/01/20.
+//  Copyright © 2020 Brandenburg. All rights reserved.
 //
 
 import UIKit
@@ -28,7 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
-
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.

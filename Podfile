@@ -12,7 +12,6 @@ target 'TasksProject' do
     inherit! :search_paths
     # Pods for testing
   end
-
   target 'TasksProjectUITests' do
     # Pods for testing
   end

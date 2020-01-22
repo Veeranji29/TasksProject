@@ -2,10 +2,9 @@
 //  Model.swift
 //  TasksProject
 //
-//  Created by Veera Diande on 11/12/19.
-//  Copyright © 2019 Brandenburg. All rights reserved.
+//  Created by Veera Diande on 21/01/20.
+//  Copyright © 2020 Brandenburg. All rights reserved.
 //
-
 import Foundation
 struct FactsData: Codable {
     let title: String

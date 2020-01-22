@@ -2,13 +2,12 @@
 //  TasksProjectTests.swift
 //  TasksProjectTests
 //
-//  Created by Veera Diande on 11/12/19.
-//  Copyright © 2019 Brandenburg. All rights reserved.
+//  Created by Veera Diande on 21/01/20.
+//  Copyright © 2020 Brandenburg. All rights reserved.
 //
 
 import XCTest
 @testable import TasksProject
-
 class TasksProjectTests: XCTestCase {
 
     override func setUp() {
